@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-replace",
+  "version": "1.0.0",
+  "description": "Replace <% ... %> in your code before linting",
+  "keywords": [
+    "eslint",
+    "replace",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Johann Hofmann",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT"
+}
